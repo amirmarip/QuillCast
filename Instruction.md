@@ -1,10 +1,15 @@
- How to run Text text_detection
+ How to run Text text_detection.py
 Be sure to have installed the necessary packages
 
  pip install numpy
  pip install pytesseract
  pip install argparse
  pip install cv2
+
+ Install Tesseract at UB Mannheim:
+ https://github.com/UB-Mannheim/tesseract/wiki
+
+ 
 
 After installing Necessary packages:
 
