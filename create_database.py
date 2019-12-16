@@ -1,7 +1,7 @@
 import sqlite3
 def main():
     conn = sqlite3.connect('alphanum.db')
-    print "Opened database successfully";
+    print("Opened database successfully");
 
     cur = conn.cursor()
 
