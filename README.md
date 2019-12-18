@@ -1,5 +1,13 @@
-# master
+![QC logo](/QuillCast.png)
+# QuillCast
 COE125-E01-2Q1920
+Handwritting recognition software written on Phyton using machine learning.
+## Getting started
+Clone or download from the repository
+##Prerequisites
+SQL server
+Phyton
+
 
 # This is the readme file for the upcoming project of Machine Learning Handwriting Recognition
 
