@@ -1,4 +1,5 @@
-# USAGE
+
+.22# USAGE
 
 # import the necessary packages
 from imutils.object_detection import non_max_suppression
@@ -180,3 +181,16 @@ for ((startX, startY, endX, endY), text) in results:
 	# show the output image
 	cv2.imshow("Text Detection", output)
 	cv2.waitKey(0)
+
+#export output into database
+import sqlite3
+
+count = int(0)
+
+conn = sqlite3.connect('itreads.db')
+print("Opened database successfully")
+
+conn.execute("INSERT INTO ItReads (EntryNo, Content) VALUES (count + 1, text)")
+conn.commit()
+print("Data written to database")
+conn.close()
