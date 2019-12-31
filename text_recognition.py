@@ -165,7 +165,7 @@ results = sorted(results, key=lambda r:r[0][1])
 for ((startX, startY, endX, endY), text) in results:
 	# display the text OCR'd by Tesseract
 	print("OCR TEXT")
-	print("========")
+	print("=========================")
 	print("{}\n".format(text))
 
 	# strip out non-ASCII text so we can draw the text on the image
