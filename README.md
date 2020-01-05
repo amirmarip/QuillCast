@@ -4,7 +4,7 @@ COE125-E01-2Q1920
 Handwritting recognition software written on Phyton using machine learning.
 ## Getting started
 Clone or download from the repository
-##Prerequisites
+## Prerequisites
 SOftware:
   SQLite
   Phyton
