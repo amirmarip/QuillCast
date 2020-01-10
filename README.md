@@ -15,3 +15,27 @@ Hardware:
 ## This is the readme file for the upcoming project of Machine Learning Handwriting Recognition
 
 # Client: Engr. Dionis Padilla
+
+
+
+# Instructions
+
+Tested Python Version 3.7.5
+Be sure to have installed the necessary packages
+
+pip install numpy
+pip install pytesseract
+pip install argparse
+pip install cv2
+
+Install Tesseract at UB Mannheim:
+https://github.com/UB-Mannheim/tesseract/wiki
+
+
+
+After installing Necessary packages:
+
+1. Open CMD
+2. Go to the directory of the Text text_detection.py
+3. Use command:
+  python text_detection.py --east text_detection.pb --image "image file"
