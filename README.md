@@ -12,16 +12,20 @@ Software:
 **Python Libraries**
 
  *numpy*
+
  *pytesseract*
+
  *argparse*
+
  *cv2*
+ 
  *Tesseract*
 
 Hardware:
   USB Camera
 
 
-## This is the readme file for the upcoming project of Machine Learning Handwriting Recognition
+This is the readme file for the upcoming project of Machine Learning Handwriting Recognition
 
 Client: Engr. Dionis Padilla
 
